@@ -9,7 +9,6 @@
  */
 
 import type * as hello from "../hello.js";
-import type * as tasks from "../tasks.js";
 
 import type {
   ApiFromModules,
@@ -19,7 +18,6 @@ import type {
 
 declare const fullApi: ApiFromModules<{
   hello: typeof hello;
-  tasks: typeof tasks;
 }>;
 
 /**
